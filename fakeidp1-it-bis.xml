@@ -1,59 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_e3f403bb-cbc1-4435-b9dd-c45c00b7d625" entityID="https://fakeidp1.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
-<ds:SignedInfo>
-<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
-<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
-<ds:Reference URI="#_e3f403bb-cbc1-4435-b9dd-c45c00b7d625">
-<ds:Transforms>
-<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
-<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
-</ds:Transforms>
-<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<ds:DigestValue>cD5m7tTuIlzTiTApOnN+y/PZGVUf7XhZH1a1O7dBaH0=</ds:DigestValue>
-</ds:Reference>
-</ds:SignedInfo>
-<ds:SignatureValue>
-Q3i1Uj0k91/KSK//CxF7/4nW5s6k6I3IrjUGge/UJW3AUvqS3k8RqeF3vZAV44UqgWtuGv4b9Isa
-wFUWPaRWBBpJWTZLf44IuNRPGu8R24Gsb2Yj1WZiKvAs0kRAAFxGquIvqJ/cIEjG81MYmRbFupdT
-2VIf//OXAWcXF/B9PdhI0oKQM3AJHgWvZlxB95MR1bBOIG6veXRjq1XG7H7Ee+DEIKlN9yGrQ7tx
-MjiZL5QzcYlcqJKsQvv7uJ8mFVIDyJCnZAVRpoYvd7HNB4+LQo7bN+Z3LvSQPItVYfmkDWuDw2nZ
-5VKScprphGt7Xwjz+BsfcINMMwfb9V+UVwA/5g==
-</ds:SignatureValue>
-<ds:KeyInfo>
-<ds:KeyValue>
-<ds:RSAKeyValue>
-<ds:Modulus>
-q+4C3m5+AYR2UWyESZFr50ZDESmNBw4WYqcLKL5+YQBQsixm1tTNxZM3WkDisArlSLrIjs6XH4+F
-KQIl34X0Wl+xdQBfw6boDOOUOZpvJyA30ifrQm07xWRobzhP/KYAWzaDfj3SUXuV+1uGmKoZAUJX
-R/I5jATUxVDqRSnGG0qeCF+mdRSD9Kca5MqpKQpyPEM+hKyH6B8ATKTuSW6HdPnAC6AGBXP9a/cT
-ZTWJ9ZOIiHh5eU6vlRxQfg9YlE38Sj1iprwVL9LVcdyDO1wzjBDOtyLXF9w6Sm6Zdf+p5Ql64rO1
-u2i1UO6NrUksboLaIM0fK+LIEpQaI27dqbYAyw==
-</ds:Modulus>
-<ds:Exponent>AQAB</ds:Exponent>
-</ds:RSAKeyValue>
-</ds:KeyValue>
-<ds:X509Data>
-<ds:X509Certificate>
-MIIDwTCCAqmgAwIBAgIUOLH3cOLBzRCgtC37R6/Pmi4QDHwwDQYJKoZIhvcNAQELBQAwcDELMAkG
-A1UEBhMCSVQxCzAJBgNVBAgMAkFOMQ8wDQYDVQQHDAZBbmNvbmExGjAYBgNVBAoMEUZha2UgT3Jn
-YW5pemF0aW9uMREwDwYDVQQLDAhGYWtlIElEUDEUMBIGA1UEAwwLZmFrZWlkcDEuaXQwHhcNMjIw
-NzExMTI0MDMyWhcNMzIwNzA4MTI0MDMyWjBwMQswCQYDVQQGEwJJVDELMAkGA1UECAwCQU4xDzAN
-BgNVBAcMBkFuY29uYTEaMBgGA1UECgwRRmFrZSBPcmdhbml6YXRpb24xETAPBgNVBAsMCEZha2Ug
-SURQMRQwEgYDVQQDDAtmYWtlaWRwMS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
-AKvuAt5ufgGEdlFshEmRa+dGQxEpjQcOFmKnCyi+fmEAULIsZtbUzcWTN1pA4rAK5Ui6yI7Olx+P
-hSkCJd+F9FpfsXUAX8Om6AzjlDmabycgN9In60JtO8VkaG84T/ymAFs2g3490lF7lftbhpiqGQFC
-V0fyOYwE1MVQ6kUpxhtKnghfpnUUg/SnGuTKqSkKcjxDPoSsh+gfAEyk7kluh3T5wAugBgVz/Wv3
-E2U1ifWTiIh4eXlOr5UcUH4PWJRN/Eo9Yqa8FS/S1XHcgztcM4wQzrci1xfcOkpumXX/qeUJeuKz
-tbtotVDuja1JLG6C2iDNHyviyBKUGiNu3am2AMsCAwEAAaNTMFEwHQYDVR0OBBYEFHvsU5wruxEj
-x37cgYT39kl+yYu+MB8GA1UdIwQYMBaAFHvsU5wruxEjx37cgYT39kl+yYu+MA8GA1UdEwEB/wQF
-MAMBAf8wDQYJKoZIhvcNAQELBQADggEBACHv21Zjsm/p0j+KCMblVxK8KsT/uf3NChoEXlk1lCTr
-ov1fzVV7a4qfOuPKZvIsiaaU1NIzaW9W97ylIo5sIFWxCGJP/Nff7I/ffatflvPvtzec/zYgXwDh
-tpPk3Z/Uz5+5JgMecXZ3ABsfHvghG24MTNjYupiPNp9Ci82vJ+405fvmnt102K1/fFBFQYgpR8lU
-yN0g5OCTizfWDRxRYCzEJTDSVejphY9WIkh9umB18TiiQqYqeLTrLjXlUd7cJ6aCQVFpYRk5A7xw
-fP4VvKZs5G7g2CGq57Qd8cIGe7xApsxWX4YOC8h7+XWjBx2FPJxCVRW6wDgFQQttGFhqRhw=
-</ds:X509Certificate>
-</ds:X509Data>
-</ds:KeyInfo>
-</ds:Signature>
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor ID="_e3f403bb-cbc1-4435-b9dd-c45c00b7d625" entityID="https://fakeidp1.it" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
 	<md:IDPSSODescriptor WantAuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
 		<md:KeyDescriptor use="signing">
 			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
@@ -87,29 +33,29 @@ GFhqRhw=</ds:X509Certificate>
 		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
 		<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fakeidp1.it/login"/>
 		<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://fakeidp1.it/login"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Codice identificativo SPID" Name="spidCode"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Nome" Name="name"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Cognome" Name="familyName"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Provincia di nascita" Name="countyOfBirth"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Data di nascita" Name="dateOfBirth"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Sesso" Name="gender"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Ragione o denominazione sociale" Name="companyName"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Codice Fiscale Persona Giuridica" Name="companyFiscalNumber"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Sede legale" Name="registeredOffice"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Codice fiscale" Name="fiscalNumber"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Partita IVA" Name="ivaCode"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Documento d'identità" Name="idCard"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Numero di telefono mobile" Name="mobilePhone"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Indirizzo di posta elettronica" Name="email"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Domicilio fisico" Name="address"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Indirizzo domicilio fisico" Name="domicileStreetAddress"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="CAP domicilio fisico" Name="domicilePostalCode"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Comune domicilio fisico" Name="domicileMunicipality"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Provincia domicilio fisico" Name="domicileProvince"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Nazione domicilio fisico" Name="domicileNation"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Data di scadenza identità" Name="expirationDate"/>
-		<saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Domicilio digitale" Name="digitalAddress"/>
+		<saml2:Attribute FriendlyName="Codice identificativo SPID" Name="spidCode" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Nome" Name="name" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Cognome" Name="familyName" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Luogo di nascita" Name="placeOfBirth" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Provincia di nascita" Name="countyOfBirth" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Data di nascita" Name="dateOfBirth" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Sesso" Name="gender" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Ragione o denominazione sociale" Name="companyName" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Codice Fiscale Persona Giuridica" Name="companyFiscalNumber" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Sede legale" Name="registeredOffice" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Codice fiscale" Name="fiscalNumber" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Partita IVA" Name="ivaCode" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Documento d'identità" Name="idCard" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Numero di telefono mobile" Name="mobilePhone" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Indirizzo di posta elettronica" Name="email" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Domicilio fisico" Name="address" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Indirizzo domicilio fisico" Name="domicileStreetAddress" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="CAP domicilio fisico" Name="domicilePostalCode" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Comune domicilio fisico" Name="domicileMunicipality" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Provincia domicilio fisico" Name="domicileProvince" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Nazione domicilio fisico" Name="domicileNation" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Data di scadenza identità" Name="expirationDate" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+		<saml2:Attribute FriendlyName="Domicilio digitale" Name="digitalAddress" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"/>
 	</md:IDPSSODescriptor>
 	<md:Organization>
 		<md:OrganizationName xml:lang="it">Fake Organization</md:OrganizationName>
